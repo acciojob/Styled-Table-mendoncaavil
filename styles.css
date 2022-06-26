@@ -1,1 +1,30 @@
 /* your code */
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+table, th, td{
+    border: 1px solid #96D4D4;
+    border-collapse: collapse;
+    padding:  15px;
+    background-color: beige;
+    /* border-radius: 10px; */
+}
+
+th{
+    width: 300px;
+    background-color: blue;
+    color: white;
+    /* border-radius: 10px; */
+}
+
+td{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.table_head{    
+    color: blue;
+    background-color: yellow;
+}
